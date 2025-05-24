@@ -1,20 +1,10 @@
-<!DOCTYPE html>
-<html lang="uk">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PRO’телефон</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-50 text-gray-800">
-
-<!-- 🔝 ЛОГОТИП -->
+<!-- 🔝 Хедер (адаптивний для мобільних) -->
 <header class="bg-white shadow py-4 px-4 sticky top-0 z-50">
-  <div class="max-w-6xl mx-auto flex items-center justify-between">
-    <a href="#top" class="text-xl font-bold text-blue-700">PRO’телефон</a>
-    <nav class="space-x-4">
-      <a href="#call" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Замовити дзвінок</a>
-      <a href="#viber" class="bg-white border border-blue-600 text-blue-600 px-4 py-2 rounded hover:bg-blue-50 transition">Viber</a>
+  <div class="max-w-6xl mx-auto flex flex-col sm:flex-row sm:items-center sm:justify-between">
+    <a href="#top" class="text-xl font-bold text-blue-700 mb-2 sm:mb-0">PRO’телефон</a>
+    <nav class="flex flex-col sm:flex-row sm:space-x-4 space-y-2 sm:space-y-0">
+      <a href="#call" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 text-center transition">Замовити дзвінок</a>
+      <a href="viber://chat?number=+380967411713" class="bg-white border border-blue-600 text-blue-600 px-4 py-2 rounded hover:bg-blue-50 text-center transition">Viber</a>
     </nav>
   </div>
 </header>
